@@ -66,40 +66,6 @@ class ExperienceEntityRepository{
             return $r;
         }
     }
-    //---------------------------------------------------------------------------------//
-    public function delete( $id ){
 
-        $q = $this->getDb()->query('DELETE FROM '. $this->table . ' WHERE id_'. $this->table . ' = ' . (int) $id);
-
-    }
-    //---------------------------------------------------------------------------------//
-    public function insert(){
-
-		$q = $this->getDb()->query('INSERT INTO ' .$this->table . '(' . implode(',', array_keys($_POST) ) . ') VALUES (' . "'" . implode("','", $_POST) . "'" . ') ');
-
-		return $this->getDb()->lastInsertId();
-    }
-    //---------------------------------------------------------------------------------//
-    public function update($id)
-	{
-		if($_POST){}
- 
- 		$c = array_combine(array_keys($_POST), $_POST);
-// 		print '<pre>';
-// 		print_r($c);
-// 		print '</pre>';
-
-		$p = http_build_query($c, '', '", ');
-// 		print '<pre>';
-// 		print_r($p);
-// 		print '</pre>';
-
-		$m = str_replace('=', '="',$p);
-// 		print '<pre>';
-// 		print_r($m);
-// 		print '</pre>';
-
-		$q = $this->getDb()->query('UPDATE '. $this->table . ' SET ' . $m . '" WHERE id_' . $this->table . ' = ' . $id);
-	}   
 }
 

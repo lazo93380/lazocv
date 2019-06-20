@@ -18,14 +18,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="view/images/project-1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/project-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Recent Project</div>
                       <p>Web Development</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="view/images/project-2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/project-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Startup Project</div>
                       <p>Web Development</p>
@@ -34,14 +34,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="view/images/project-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/project-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Food Order Project</div>
                       <p>Web Development</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="view/images/project-4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/project-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Web Advertising Project</div>
                       <p>Web Development</p>
@@ -56,14 +56,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="view/images/graphic-design-1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/graphic-design-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Triangle Pattern</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="view/images/graphic-design-2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/graphic-design-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Abstract Umbrella</div>
                       <p>Graphic Design</p>
@@ -72,14 +72,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="view/images/graphic-design-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/graphic-design-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Cube Surface Texture</div>
                       <p>Graphic Design</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="view/images/graphic-design-4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/graphic-design-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Abstract Line</div>
                       <p>Graphic Design</p>
@@ -94,14 +94,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="view/images/photography-1.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/photography-1.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Photoshoot</div>
                       <p>Photography</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="view/images/photography-3.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/photography-3.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Wedding Photoshoot</div>
                       <p>Photography</p>
@@ -110,14 +110,14 @@
             </div>
             <div class="col-md-6">
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="view/images/photography-2.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/photography-2.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Beach Photoshoot</div>
                       <p>Photography</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="view/images/photography-4.jpg" alt="Image"/>
+                  <figure class="cc-effect"><img src="public/images/photography-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Nature Photoshoot</div>
                       <p>Photography</p>

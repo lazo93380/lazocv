@@ -10,22 +10,15 @@
 
       <div class="container-fluid">
 
-        <!-- Breadcrumbs-->
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="admin.php">Dashboard</a>
-          </li>
-          <li class="breadcrumb-item active">Tables</li>
-        </ol>
 
         <!-- DataTables Example -->
         <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-table"></i>
-            Data Table Example</div>
+            Competences</div>
           <div class="card-body">
             <div class="table-responsive">
-              <button type="button" class="btn btn-success" ><a href="?op=new" style="color:white;">Ajouter competence</a></button><br>
+              <button type="button" class="btn btn-primary" ><a href="?op=new" style="color:white;">Ajouter competence</a></button><br>
             
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
@@ -59,14 +52,14 @@
                           <td><?php echo $co; ?></td>
                         <?php endforeach;?>
                           <td>
-                            <button type="button" class="btn btn-success">
+                            <button type="button" class="btn btn-primary">
                               <a href="?op=delete&id_competences=<?php echo $competences['id_competences']?>" style="color:white;">
                                 Delete
                               </a>
                           </button>
                           </td>
                           <td>
-                            <button type="button" class="btn btn-success">
+                            <button type="button" class="btn btn-primary">
                               <a href="?op=update&id_competences=<?php echo $competences['id_competences']?>" style="color:white;">
                                     Edite
                               </a>

@@ -9,16 +9,16 @@
             <div class="row">
                 <div class="col-md-3 bg-danger" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body cc-experience-header">
-                    <p><?php echo htmlentities($ex->date);?></p>
+                    <p><?php echo $ex->date;?></p>
                     <div class="h5">
-                        <?php echo htmlentities($ex->nomEntreprise, ENT_SUBSTITUTE);?>
+                        <?php echo $ex->nomEntreprise;?>
                     </div>
                 </div>
                 </div>
                 <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div class="card-body">
-                    <div class="h5"><?php echo htmlentities($ex->poste);?></div>
-                    <p><?php echo htmlentities($ex->description);?></p>
+                    <div class="h5"><?php echo $ex->poste;?></div>
+                    <p><?php echo $ex->description;?></p>
                 </div>
                 </div>
             </div>
