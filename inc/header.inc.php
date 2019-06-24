@@ -24,10 +24,10 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#formation">Formation</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">A propos</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Expériences</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#formation">Formations</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
               </ul>
@@ -44,18 +44,16 @@
       <div class="page-header-image" data-parallax="true" style="background-image: url('public/images/cc-bg-1.jpg');"></div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="public/images/anthony.jpg" alt="Image"/></a></div>
+          <div class="cc-profile-image"><a href="#"><img src="public/images/profil.jpg" alt="Image"/></a></div>
           <div class="h2 title">Mehdi Hamdaoui</div>
-          <p class="category text-white">Développeur Web, Graphiste Designer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary"  data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank" <?= URL;?> href="view/images/hamdaoui_mehdi_cv.pdf" Download="Hamdaoui_Mehdi.pdf">Download CV</a>
+          <p class="category text-white">Développeur Web, Graphiste Designer</p><a class="btn btn-danger smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Engagez-moi</a><a class="btn btn-danger"  data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank" <?= URL;?> href="view/images/hamdaoui_mehdi_cv.pdf" Download="Hamdaoui_Mehdi.pdf">Téléchargez CV</a>
         </div>
       </div>
       <div class="section">
         <div class="container">
           <div class="button-container">
-                <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/zorino93" target="_bank" rel="tooltip" title="Suivez-moi sur Github"><i class="fa fa-github"></i></a>
+                <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/mehdi-hamdaoui-683583142/" target="_bank" rel="tooltip" title="Suivez-moi sur Linkedin"><i class="fa fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -68,7 +66,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
+            <div class="h4 mt-0 title">A propos</div>
             <p>Bonjour ! Je suis Mehdi Hamdaoui. Développeur Web , Infographiste Multimédia.</p><br>
             <p>Mon site CV repsécente mes expérience et pratique en front-end et back-end, donc je vous souhaite bonne visite sur mon CV.</p>
           </div>

@@ -40,13 +40,16 @@
                       <p>Web Development</p>
                     </figcaption>
                   </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                  <a href="#web-development">
                   <figure class="cc-effect"><img src="public/images/project-4.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">Web Advertising Project</div>
                       <p>Web Development</p>
                     </figcaption>
-                  </figure></a></div>
+                  </figure>
+                  </a>
+              </div>
             </div>
           </div>
         </div>
@@ -155,29 +158,28 @@ if(isset($_POST['email']) and isset($_POST['sujet']) and isset($_POST['message']
 else{
 ?>
 <div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('public/images/staticmap.png');">
+  <div class="cc-contact-information" style="background-image: url('public/images/stains_map.PNG');">
     <div class="container">
       <div class="cc-contact">
         <div class="row">
           <div class="col-md-9">
             <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
+              <div class="h4 text-center title">Contactez-moi</div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
                     <form action="" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" id="name" placeholder="Name" required="required"/>
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Nom" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="sujet" id="sujet" placeholder="Subject" required="required"/>
+                            <input class="form-control" type="text" name="sujet" id="sujet" placeholder="Sujet" required="required"/>
                           </div>
                         </div>
                       </div>
@@ -191,13 +193,13 @@ else{
                       <div class="row mb-3">
                         <div class="col">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" placeholder="Your Message" required="required"></textarea>
+                            <textarea class="form-control" name="message" id="message" placeholder="Vos Messages" required="required"></textarea>
                           </div>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
-                          <button class="btn btn-primary" type="submit">Send</button>
+                          <button class="btn btn-danger" type="submit">Envoyer</button>
                         </div>
                       </div>
                     </form>
@@ -205,12 +207,10 @@ else{
                 </div>
                 <div class="col-md-6">
                   <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">140, City Center, New York, U.S.A</p>
+                    <p class="mb-0"><strong>Adresse </strong></p>
+                    <p class="pb-2">37 rue de la coopération, 93240 Stains</p>
                     <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">+1718-111-0011</p>
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p>anthony@company.com</p>
+                    <p class="pb-2">06 58 04 81 35</p>
                   </div>
                 </div>
               </div>
@@ -226,8 +226,8 @@ else{
 </div></div>
     </div>
     <footer class="footer">
-      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
-      <div class="h4 title text-center">Anthony Barnett</div>
+      <div class="container text-center"><a class="cc-linkedin btn btn-link" target="_bank" href="https://www.linkedin.com/in/mehdi-hamdaoui-683583142/"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a><a class="cc-github btn btn-link " target="_bank" href="https://github.com/zorino93"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Mehdi Hamdaoui</div>
       <div class="text-center text-muted">
         <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>

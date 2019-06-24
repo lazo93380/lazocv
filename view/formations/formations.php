@@ -3,7 +3,7 @@
 
     <div class="section" id="formation">
         <div class="container cc-experience">
-            <div class="h4 text-center mb-4 title">Formation</div>
+            <div class="h4 text-center mb-4 title">Formations</div>
             <?php foreach ($formations as $form) : ?>
             <div class="card">
             <div class="row">
