@@ -2,7 +2,7 @@
   require_once('../../inc/init.inc.php'); ob_start();
   require_once('../../inc/adminHeader.inc.php');
   
-  $r = execute_requete("SELECT * FROM competences"); 
+  $r = execute_requete("SELECT * FROM competences"); // création d'une variable pour la récupération de table competences.
   // debug($r);
 ?>
 
@@ -46,7 +46,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                    <?php while ($competences = $r->fetch(PDO::FETCH_ASSOC)) { ?>
+                    <?php while ($competences = $r->fetch(PDO::FETCH_ASSOC)) { ?> 
                       <tr>
                         <?php foreach($competences as $indice => $co) : ?>
                           <td><?php echo $co; ?></td>
@@ -54,14 +54,14 @@
                           <td>
                             <button type="button" class="btn btn-primary">
                               <a href="?op=delete&id_competences=<?php echo $competences['id_competences']?>" style="color:white;">
-                                Delete
+                                supprimer
                               </a>
                           </button>
                           </td>
                           <td>
                             <button type="button" class="btn btn-primary">
                               <a href="?op=update&id_competences=<?php echo $competences['id_competences']?>" style="color:white;">
-                                    Edite
+                                    modifier
                               </a>
                             </button>
                           </td>

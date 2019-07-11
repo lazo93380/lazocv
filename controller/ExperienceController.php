@@ -26,10 +26,6 @@ class ExperienceController{
             if( !$op || $op == 'list'){
                 $this->listExperience();
             }
-            elseif( $op == 'show'){
-
-                $this->showExperience();
-            }
             else{
 
                 $this->showError( "Page not found", 'Page for operation'. $op .'was not found.');
@@ -49,17 +45,4 @@ class ExperienceController{
         include 'view/experiences/experiences.php';
     }
 
-    //---------------------------------------------------------------------------------//
-    public function showExperience(){
-
-        $id = isset($_GET['id']) ? $_GET['id'] : NULL;
-        
-        if(!$id){
-
-            throw new Exception('Internal error.');
-        }
-        $contact = $this->db->select($id);
-
-		include 'view/experiences/experience.php';
-    }
 }

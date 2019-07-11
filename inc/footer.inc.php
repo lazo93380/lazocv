@@ -1,242 +1,190 @@
-<div class="section" id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Portfolio</div>
-        <div class="nav-align-center">
-          <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="public/images/project-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Recent Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="public/images/project-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="public/images/project-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                  <a href="#web-development">
-                  <figure class="cc-effect"><img src="public/images/project-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Web Advertising Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure>
-                  </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="graphic-design" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="public/images/graphic-design-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Triangle Pattern</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="public/images/graphic-design-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Umbrella</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="public/images/graphic-design-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Cube Surface Texture</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                  <figure class="cc-effect"><img src="public/images/graphic-design-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Abstract Line</div>
-                      <p>Graphic Design</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="Photography" role="tabpanel">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="public/images/photography-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="public/images/photography-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Wedding Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="public/images/photography-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Beach Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                  <figure class="cc-effect"><img src="public/images/photography-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Nature Photoshoot</div>
-                      <p>Photography</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Main Content -->
+ <div class="container" id="contact">
+   <div class="row">
+     <div class="col-lg-10 col-md-10 mx-auto">
+       <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+       <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+       <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+       <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+       <form name="sentMessage" id="contactForm" novalidate>
+         <!--Section: Contact v.2-->
+         <section class="mb-4">
 
-<?php
-if(isset($_POST['email']) and isset($_POST['sujet']) and isset($_POST['message'])){
-    $destinataire = 'mehdi.hamdaoui01@gmail.com';
-    $email = htmlentities($_POST['email']);
-    if(preg_match('#^(([a-z0-9!\#$%&\\\'*+/=?^_`{|}~-]+\.?)*[a-z0-9!\#$%&\\\'*+/=?^_`{|}~-]+)@(([a-z0-9-_]+\.?)*[a-z0-9-_]+)\.[a-z]{2,}$#i',str_replace('&amp;','&',$email))){
-        $sujet = 'Contact: '.stripslashes($_POST['sujet']);
-        $message = stripslashes($_POST['message']);
-        $headers = "From: <".$email.">\n";
-        $headers .= "Reply-To: ".$email."\n";
-        $headers .= "Content-Type: text/plain; charset=\"iso-8859-1\"";
-        if(mail($destinataire,$sujet,$message,$headers)){
-            echo "<strong>Votre message a bien &eacute;t&eacute; envoy&eacute;.</strong>";
-        }
-        else{
-            echo "<strong style=\"color:#ff0000;\">Une erreur c'est produite lors de l'envois du message.</strong>";
-        }
-    }
-    else{
-        echo "<strong style=\"color:#ff0000;\">L'email que vous avez entr&eacute; est invalide.</strong>";
-    }
-}
-else{
-?>
-<div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('public/images/stains_map.PNG');">
-    <div class="container">
-      <div class="cc-contact">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contactez-moi</div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <form action="" method="POST">
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" id="name" placeholder="Nom" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="sujet" id="sujet" placeholder="Sujet" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="email" id=" email" placeholder="E-mail" required="required"/>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" id="message" placeholder="Vos Messages" required="required"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          <button class="btn btn-danger" type="submit">Envoyer</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Adresse </strong></p>
-                    <p class="pb-2">37 rue de la coopération, 93240 Stains</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">06 58 04 81 35</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<?php
-  }
-?>
-</div></div>
-    </div>
-    <footer class="footer">
-      <div class="container text-center"><a class="cc-linkedin btn btn-link" target="_bank" href="https://www.linkedin.com/in/mehdi-hamdaoui-683583142/"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a><a class="cc-github btn btn-link " target="_bank" href="https://github.com/zorino93"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a></div>
-      <div class="h4 title text-center">Mehdi Hamdaoui</div>
-      <div class="text-center text-muted">
-        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
-      </div>
-    </footer>
-    <script src="public/js/core/jquery.3.2.1.min.js"></script>
-    <script src="public/js/core/popper.min.js"></script>
-    <script src="public/js/core/bootstrap.min.js"></script>
-    <script src="public/js/now-ui-kit.js?v=1.1.0"></script>
-    <script src="public/js/aos.js"></script>
-    <script src="public/scripts/main.js"></script>
-</body>
-</html>
+           <!--Section heading-->
+           <h2 class="h1-responsive font-weight-bold text-center my-4">contact</h2>
+           <!--Section description-->
+           <p class="text-center w-responsive mx-auto mb-5">
+             .</p>
+
+           <div class="row">
+
+             <!--Grid column-->
+             <div class="col-md-9 mb-md-0 mb-5">
+               <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                 <!--Grid row-->
+                 <div class="row">
+
+                   <!--Grid column-->
+                   <div class="col-md-6">
+                     <div class="md-form mb-0">
+                       <input type="text" id="name" name="name" class="form-control">
+                       <label for="name" class="">prenom</label>
+                     </div>
+                   </div>
+                   <!--Grid column-->
+
+                   <!--Grid column-->
+                   <div class="col-md-6">
+                     <div class="md-form mb-0">
+                       <input type="text" id="email" name="email" class="form-control">
+                       <label for="email" class="">email</label>
+                     </div>
+                   </div>
+                   <!--Grid column-->
+
+                 </div>
+                 <!--Grid row-->
+
+                 <!--Grid row-->
+                 <div class="row">
+                   <div class="col-md-12">
+                     <div class="md-form mb-0">
+                       <input type="text" id="subject" name="subject" class="form-control">
+                       <label for="subject" class="">Sujet</label>
+                     </div>
+                   </div>
+                 </div>
+                 <!--Grid row-->
+
+                 <!--Grid row-->
+                 <div class="row">
+
+                   <!--Grid column-->
+                   <div class="col-md-12">
+
+                     <div class="md-form">
+                       <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                       <label for="message">message</label>
+                     </div>
+
+                   </div>
+                 </div>
+                 <!--Grid row-->
+
+               </form>
+
+               <div class="text-center text-md-left">
+                 <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+               </div>
+               <div class="status"></div>
+             </div>
+             <!--Grid column-->
+
+             <!--Grid column-->
+             <div class="col-md-3 text-center">
+               <ul class="list-unstyled mb-0">
+                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                   <p>Pierrefitte-Sur-Seine, Cp 93380, fr</p>
+                 </li>
+
+                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                   <p>06 09 66 11 97</p>
+                 </li>
+
+                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                   <p>lazeny.konate@gmail.com</p>
+                 </li>
+               </ul>
+             </div>
+             <!--Grid column-->
+
+           </div>
+           <script>
+             function validateForm() {
+               var name = document.getElementById('name').value;
+               if (name == "") {
+                 document.getElementById('status').innerHTML = "Name cannot be empty";
+                 return false;
+               }
+
+               var email = document.getElementById('email').value;
+               if (email == "") {
+                 document.getElementById('status').innerHTML = "Email cannot be empty";
+                 return false;
+               } else {
+                 var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                 if (!re.test(email)) {
+                   document.getElementById('status').innerHTML = "Email format invalid";
+                   return false;
+                 }
+               }
+
+               var subject = document.getElementById('subject').value;
+               if (subject == "") {
+                 document.getElementById('status').innerHTML = "Subject cannot be empty";
+                 return false;
+               }
+
+               var message = document.getElementById('message').value;
+               if (message == "") {
+                 document.getElementById('status').innerHTML = "Message cannot be empty";
+                 return false;
+               }
+
+               document.getElementById('status').innerHTML = "Sending...";
+               document.getElementById('contact-form').submit();
+             }
+           </script>
+     </div>
+   </div>
+ </div>
+
+ <hr>
+ <!-- Footer -->
+ <footer>
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-8 col-md-10 mx-auto">
+         <ul class="list-inline text-center">
+           <li class="list-inline-item">
+             <a href="#">
+               <span class="fa-stack fa-lg">
+                 <i class="fas fa-circle fa-stack-2x"></i>
+                 <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+               </span>
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a href="#">
+               <span class="fa-stack fa-lg">
+                 <i class="fas fa-circle fa-stack-2x"></i>
+                 <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+               </span>
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a href="#">
+               <span class="fa-stack fa-lg">
+                 <i class="fas fa-circle fa-stack-2x"></i>
+                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+               </span>
+             </a>
+           </li>
+         </ul>
+         <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+       </div>
+     </div>
+   </div>
+ </footer>
+
+ <!-- Bootstrap core JavaScript -->
+ <script src="public/vendor/jquery/jquery.min.js"></script>
+ <script src="public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Custom scripts for this template -->
+ <script src="public/js/clean-blog.min.js"></script>
+
+ </body>
+
+ </html>

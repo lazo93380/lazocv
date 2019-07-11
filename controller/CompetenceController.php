@@ -2,7 +2,7 @@
 
 namespace controller;
 
-class CompetenceController{
+class CompetenceController{ // création de la lclasse controller 
     
     public $db;
     public function __construct(){
@@ -26,10 +26,6 @@ class CompetenceController{
             if( !$op || $op == 'list'){
                 $this->listCompetence();
             }
-            elseif( $op == 'show'){
-
-                $this->showCompetence();
-            }
             else{
 
                 $this->showError( "Page not found", 'Page for operation'. $op .'was not found.');
@@ -48,18 +44,5 @@ class CompetenceController{
 
         include 'view/competences/competences.php';
     }
-    
-    //---------------------------------------------------------------------------------//
-    public function showCompetence(){
 
-        $id = isset($_GET['id']) ? $_GET['id'] : NULL;
-        
-        if(!$id){
-
-            throw new Exception('Internal error.');
-        }
-        $contact = $this->db->select($id);
-
-		include 'view/competences/competence.php';
-    }
 }

@@ -25,10 +25,6 @@ class FormationController{
             if( !$op || $op == 'list'){
                 $this->listFormation();
             }
-            elseif( $op == 'show'){
-
-                $this->showFormation();
-            }
             else{
 
                 $this->showError( "Page not found", 'Page for operation'. $op .'was not found.');
@@ -46,18 +42,5 @@ class FormationController{
         $formations = $this->db->selectAll($orderby);
 
         include 'view/formations/formations.php';
-    }
-    //---------------------------------------------------------------------------------//
-    public function showFormation(){
-
-        $id = isset($_GET['id']) ? $_GET['id'] : NULL;
-        
-        if(!$id){
-
-            throw new Exception('Internal error.');
-        }
-        $contact = $this->db->select($id);
-
-		include 'view/formations/formation.php';
     }
 }

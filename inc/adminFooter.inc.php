@@ -32,7 +32,7 @@
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
           <?php  if(userConnect() ) : ?>      
-          <a class="btn btn-primary" href="<?= URL ?>login.php?action=deconnexion">Logout</a>
+          <a class="btn btn-primary" href="<?= URL; ?>login.php?action=deconnexion">Logout</a>
           <?php endif;?>
         </div>
       </div>

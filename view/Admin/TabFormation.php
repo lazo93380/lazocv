@@ -14,7 +14,7 @@
         <div class="card mb-3">
           <div class="card-header">
             <i class="fas fa-table"></i>
-            Formations</div>
+             Formations</div>
           <div class="card-body">
             <div class="table-responsive">
               <button type="button" class="btn btn-primary" ><a href="?form=new" style="color:white;">Ajouter Experience</a></button><br>
@@ -51,14 +51,14 @@
                           <td>
                             <button type="button" class="btn btn-primary">
                               <a href="?form=delete&id_formation=<?php echo $formations['id_formation']; ?>" style="color:white;">
-                                Delete
+                                supprimer
                               </a>
                           </button>
                           </td>
                           <td>
                             <button type="button" class="btn btn-primary">
                               <a href="?form=update&id_formation=<?php echo $formations['id_formation']; ?>" style="color:white;">
-                                    Edite
+                                    modifier
                               </a>
                             </button>
                           </td>

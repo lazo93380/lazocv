@@ -52,14 +52,14 @@
                           <td>
                             <button type="button" class="btn btn-primary">
                               <a href="?exp=delete&id_experiences=<?php echo $experiences['id_experiences']?>" style="color:white;">
-                                Delete
+                                supprimer
                               </a>
                           </button>
                           </td>
                           <td>
                             <button type="button" class="btn btn-primary">
                               <a href="?exp=update&id_experiences=<?php echo $experiences['id_experiences']?>" style="color:white;">
-                                    Edite
+                                    modifier
                               </a>
                             </button>
                           </td>

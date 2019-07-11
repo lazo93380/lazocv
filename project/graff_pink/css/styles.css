@@ -1,0 +1,294 @@
+/*
+Autor : Nom présnom
+Date : 08/02/2017
+*/
+
+/*-------------------------------------------------------------------*/
+/* GLOBAL */
+/*-------------------------------------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color:#8b8b8b;
+}
+
+/* typo */
+/*-------------------------------------------------------------------*/
+
+h1, h2{
+    color:#404040;
+    font-weight: 400;
+}
+h1{
+    font-size: 2.188em;
+}
+h2{
+    font-size: 1.688em;
+}
+
+
+/*-------------------------------------------------------------------*/
+/* LAYOUT */
+/*-------------------------------------------------------------------*/
+
+.wrap{
+    max-width: 960px;
+    width: 100%;
+    padding:0 10px;
+    margin: 0 auto;
+}
+
+/* header */
+/*-------------------------------------------------------------------*/
+
+#header{
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header .wrap{
+    overflow: hidden;
+}
+
+header{
+    float: left;
+    width: 25%;
+}
+.menu{
+    float: left;
+    width: 75%;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    display: block;
+    padding: 5px 20px;
+    color:#454545;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background: #454545;
+    color:#fff;
+}
+
+.menu .current{
+    color:#de6d6e;
+}
+.menu .login{
+    background-color: #de6d6e;
+    color:#fff;
+    background-image: url('../img/picto-login.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+/* banner */
+/*-------------------------------------------------------------------*/
+
+.banner{
+    background-image: url(../img/bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .overlay{
+    background: rgba(0,0,0,0.4);
+    padding: 250px 0 165px 0;
+}
+
+.banner-title, .banner-text{
+    color:#fff;
+    text-align: center;
+}
+
+.banner-title{
+    text-transform: uppercase;
+    font-size: 4.375em;
+    font-family: 'AlteHaasGroteskRegular';
+    margin:0;
+    line-height: 1;
+}
+
+.banner-text{
+    margin:0;
+    font-size: 1.563em;
+}
+
+/* main */
+/*-------------------------------------------------------------------*/
+
+.first-section{
+    text-align: center;
+    overflow: hidden;
+    margin: 0 -10px;
+}
+
+.first-section article{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.first-section article a{
+    display: block;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+.first-section h2{
+    color: #fff;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.bg-color-1{
+    background-color: #4fb9f3;
+    
+}
+
+.bg-color-2{
+    background-color: #70c126;
+    
+}
+
+.bg-color-3{
+    background-color: #ff5649;
+    
+}
+
+.bg-color-4{
+    background-color: #e58f22;
+    
+}
+
+.second-section h1{
+    text-align: center;
+}
+
+.second-section article{
+    overflow: hidden;
+     padding: 0 -10px;
+}
+
+.second-section article{
+    color: #8b8b8b;
+}
+
+
+.second-section article img{
+    width: 33.3333%;
+    float: left;
+     padding: 0 10px;
+}
+
+.second-section article div{
+    width: 66.6667%;
+    float: left;
+     padding: 0 10px;
+}
+
+.second-section article h2{
+    margin-top: 0;
+}
+
+/* footer */
+/*-------------------------------------------------------------------*/
+
+footer{
+    background-color: #ff5649;
+    color: #fff;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+footer .wrap{
+    padding: 0;
+}
+
+.footer-float{
+    float: left;
+    width: 16.6667%;
+    padding: 0 10px;
+    font-size: 0.8em;
+}
+
+.footer-last{
+    width: 33.3333%;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer h1{
+    font-size: 1.5em;
+    color:#fff;
+}
+
+.rs li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.rs li:last-child{
+    margin-right: 0;
+}
+
+.rs a{
+    display: block;
+    width: 52px;
+    height: 52px;
+    text-indent: -99999px;
+}
+
+.fb{
+    background-image: url(../img/rs-fb.png);
+}
+
+.tw{
+    background-image: url(../img/rs-twitter.png);
+}
+
+.dr{
+    background-image: url(../img/rs-dribbble.png);
+}
+
+.sh{
+    background-image: url(../img/rs-share.png);
+}
